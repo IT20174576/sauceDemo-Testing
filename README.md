@@ -1,4 +1,4 @@
-This is an automation web testing which was use Testcafe tool and Typescript.Followings are the actions that I tested here. 
+This is an automation web testing which used Testcafe tool and Typescript. Followings are the actions that I tested here. 
         
        1 Access the demo site https://www.saucedemo.com
        2 Login to the system with following credentials 
