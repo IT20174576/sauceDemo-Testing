@@ -24,7 +24,7 @@ class LoginPage {
    
     constructor() {
       this.productPrice = Selector('.inventory_item_price').withText('$49.99');
-      this.addToCartButtons = Selector('.btn_primary.btn_inventory');
+      this.addToCartButtons = Selector('.btn_primary.btn_small.btn_inventory');
     }
   
     public async addProductsToCart() {
