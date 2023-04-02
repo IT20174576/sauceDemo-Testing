@@ -21,12 +21,10 @@ class LoginPage {
   class ProductPage {
     public productPrice: Selector;
     public addToCartButtons: Selector;
-    //public cartIcon: Selector;
-  
+   
     constructor() {
       this.productPrice = Selector('.inventory_item_price').withText('$49.99');
       this.addToCartButtons = Selector('.btn_primary.btn_inventory');
-      //this.cartIcon = Selector('.shopping_cart_link');
     }
   
     public async addProductsToCart() {
